@@ -16,8 +16,6 @@
 }
 #header{
     margin-bottom: 10px;
-    position: sticky;
-    top: 0px;
 }
 #header img{
     width: 100px;
@@ -39,6 +37,9 @@ nav{
     display: block;
     object-fit: cover;
     margin: auto;
+    border-radius:5px;
+    border: 2px solid rgba(105, 33, 172, 0.479) ;
+
 }
 
 #header .nav-link:hover{
@@ -46,10 +47,10 @@ nav{
     border-radius: 5px;
 }
 
-#imgs{
-    margin-top: 100px;
-}
-
 p{
     font-family: 'Roboto', sans-serif;
+}
+
+#cont-main{
+    margin-top: 100px;
 }
